@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!form) return;
 
     if (form.hasAttribute("data-netlify")) {
-        form.setAttribute("action", "/thank-you/");
+        form.setAttribute("action", "/thank-you.html");
     }
 });
